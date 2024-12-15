@@ -38,9 +38,6 @@ Another project description here.
 - Deep diving into **Serverless Architectures**
 - Exploring **Web3** development
 
-## 🚀 GitHub Stats
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=radical)
 
 ## 🌱 Let's Connect
 
