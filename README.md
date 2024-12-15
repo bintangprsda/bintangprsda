@@ -1,5 +1,5 @@
 
-# Hi, I'm [Bintang Persada]! 👋
+# Hi, I'm Bintang Persada! 👋
 
 Welcome to my GitHub profile! I'm a passionate software developer focused on building amazing web applications with modern technologies like **React**, **Next.js**, and **TypeScript**. I love creating clean, efficient code and learning new things every day. 
 
