@@ -1,6 +1,3 @@
-To create an attractive GitHub profile, consider adding these key sections to highlight your skills, projects, and achievements. Here's a template you can use for your GitHub profile README to make it stand out:
-
----
 
 # Hi, I'm [Bintang Persada]! 👋
 
