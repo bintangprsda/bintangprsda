@@ -15,14 +15,59 @@ Welcome to my GitHub profile! I'm a passionate software developer focused on bui
 
 Here are some of the projects I've worked on recently:
 
-### 📦 [Project Name](GitHub-Link)
-A brief description of the project. What does it do? What technologies did you use?
+# 🚀 atlasPro - Blood Glucose Monitoring System
 
-- **Tech Stack:** React, Node.js, MongoDB, TailwindCSS
-- **Features:**
-  - Feature 1
-  - Feature 2
-  - Feature 3
+**atlasPro** adalah aplikasi monitoring gula darah berbasis web yang dirancang khusus untuk kebutuhan laboratorium rumah sakit. Aplikasi ini mendukung pencatatan hasil pemeriksaan gula darah pasien, manajemen permintaan stok ke laboratorium, serta menyediakan dashboard real-time untuk pemantauan di bangsal dan laboratorium.
+
+## 📊 Tech Stack
+- **Frontend:** Next.js (App Router), React 19, TypeScript
+- **UI Components:** shadcn/ui, TailwindCSS, Lucide React Icons
+- **Backend:** Firebase Firestore, Firebase Authentication, Firebase Cloud Messaging (FCM)
+- **Utilities:** date-fns, react-chartjs-2, papaparse, pdf-lib
+
+---
+
+## ✨ Features
+
+### ✅ Authentication & Role Management
+- Login via **Firebase Authentication**.
+- Redirect otomatis sesuai role: **Admin** atau **Staff Bangsal**.
+- Data user mencakup: `fullName`, `unit`, `ward`.
+
+### ✅ Ward Station Management
+- Admin dapat menambah, mengedit, dan menghapus data **ward station** (bangsal).
+
+### ✅ Real-time Blood Glucose Records
+- Pencatatan hasil gula darah per pasien.
+- Auto-fill nama pasien & tanggal lahir berdasarkan nomor rekam medis (MR Number).
+- Jika data pasien tidak ditemukan, sistem mendukung input manual sekaligus menyimpan data pasien baru.
+- Semua data langsung update di Firestore dan terpantau di dashboard Admin.
+
+### ✅ Stock Request System
+- Staff bangsal dapat mengirim permintaan stok gula darah ke laboratorium.
+- Item default yang selalu tersedia: **Safety Lancet** (50 pcs per request).
+- Permintaan otomatis muncul di dashboard laboratorium dan mengirim **notifikasi FCM** ke akun Admin.
+
+### ✅ Real-time Dashboard & Monitoring
+- Grafik pemakaian gula darah harian dan mingguan.
+- Tabel histori lengkap pencatatan per pasien dan permintaan stok.
+- Semua data update otomatis tanpa refresh berkat **Firestore Realtime Snapshots**.
+
+### ✅ Notifications
+- **FCM Notifications** otomatis dikirim ke Admin laboratorium saat ada permintaan stok baru.
+
+### ✅ Export Reports
+- Export data histori ke **PDF** dan **Excel**.
+- Tersedia filter by tanggal dan ward station.
+
+### ✅ Mobile Responsive
+- Desain menggunakan **shadcn/ui** dengan warna tema standar.
+- Full responsive untuk desktop, tablet, dan mobile.
+
+---
+
+## 📂 Project Structure
+
 
 ### 📦 [Project Name](GitHub-Link)
 Another project description here.
